@@ -1,0 +1,4 @@
+git status
+git add .gitignore 
+git commit -m "Added .gitignore file"
+git push
