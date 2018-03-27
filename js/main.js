@@ -1,7 +1,2 @@
-import signInClick from "./logPassDeleteCreate"
-signInClick();
-
-import createLeftElementMenu from "./leftMenu"
-createLeftElementMenu();
-
-
+import signInClick from "./logPassDeleteCreate";
+document.getElementById("signInClick").addEventListener("click", signInClick);

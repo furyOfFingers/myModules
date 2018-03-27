@@ -74,15 +74,11 @@ var _logPassDeleteCreate = __webpack_require__(1);
 
 var _logPassDeleteCreate2 = _interopRequireDefault(_logPassDeleteCreate);
 
-var _leftMenu = __webpack_require__(2);
-
-var _leftMenu2 = _interopRequireDefault(_leftMenu);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-(0, _logPassDeleteCreate2.default)();
+// signInClick();
 
-(0, _leftMenu2.default)();
+document.getElementById("test").addEventListener("click", _logPassDeleteCreate2.default);
 
 /***/ }),
 /* 1 */
@@ -92,43 +88,26 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.default = signInClick;
-// export default function signInClick(button) {
-//     var log = document.getElementById("login").value;
-//     var pas = document.getElementById("password").value;
-//     if (log == "admin" && pas == "pas") {
-//         document.location.href = "pages/main.html";
-//     }
-//     else {
-//         alert("wrong login or password");
-//     }
-// };
 function signInClick(button) {
+  //     // var log = document.getElementById("login").value;
+  //     // var pas = document.getElementById("password").value;
+  //     // if (log == "admin" && pas == "pas") {
+  //     //     document.location.href = "pages/main.html";
 
-    alert("logpas");
-}
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.default = createLeftElementMenu;
-function createLeftElementMenu() {
-    window.onload = function now() {
-        var newProjectButton = this.document.createElement("div");
-        newProjectButton.innerHTML = "num22";
-        newProjectButton.className = "leftMenuButton";
-        leftMenuDiv.appendChild(newProjectButton);
-    };
+  //     // }
+  //     // else {
+  //     //     alert("wrong login or password");
+  //     // }
+  //     // export{signInClick};
+  alert(4444);
 };
+// window.signInClick = function (button) {
+//     alert("logpas");
+// }
+// export default window.signInClick;
 
 /***/ })
 /******/ ]);
