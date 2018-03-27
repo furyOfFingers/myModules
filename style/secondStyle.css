@@ -1,0 +1,30 @@
+body{
+    background-color:beige ;
+}
+.leftBar{
+    position: relative;
+    width: 100px;
+    height: 400px;
+    border: 2px solid black;
+    float: left;
+}
+.mainWindow{
+    position: relative;
+    margin-left: 104px;
+    width: 750px;
+    border: 2px solid black;
+    
+}
+.leftMenuButton{
+    color:#809A35;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #809A35;
+    cursor: pointer;
+}
+.leftMenuButton:hover{
+    color:#809A35;
+    background-color:beige ;
+    
+    cursor: pointer;
+}

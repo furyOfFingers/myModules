@@ -1,0 +1,40 @@
+body{
+    background-color:#D5E6A4 ;
+}
+.logPassWindow{
+    background-color: #E7F9B2;
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+-webkit-box-shadow: 10px 10px 20px 3px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 20px 3px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 20px 3px rgba(0,0,0,0.75);
+}
+.logPassContainer{
+    margin: 0 auto;
+}
+#login, #password{
+    width: 200px;
+    margin-left:50px;
+    margin-top: 10px;
+    background-color: #CCDBA2;
+    color:#A7B189;
+    border-radius: 2px;
+}
+#login{
+    margin-top: 30px;
+}
+.logInButton{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: #809A35;
+    border: 2px solid #809A35;
+    color:#B2DD37;
+    cursor: pointer;
+    
+}
